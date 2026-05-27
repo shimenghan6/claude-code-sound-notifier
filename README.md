@@ -11,7 +11,25 @@
 | Claude 需要你授权（弹权限框） | `PermissionRequest` hook | 通知提示音 |
 | Claude 完成任务/回复结束 | `Stop` hook | 完成音效 |
 
-## 快速安装
+## 一键安装
+
+### Windows（PowerShell）
+
+```powershell
+powershell -ExecutionPolicy Bypass -Command "Invoke-WebRequest -Uri https://raw.githubusercontent.com/<你的用户名>/claude-code-sound-notifier/main/install.ps1 -OutFile install.ps1; .\install.ps1"
+```
+
+或者下载 `install.ps1` → 右键 → 使用 PowerShell 运行。
+
+安装脚本会自动检测现有配置，追加 `PermissionRequest` + `Stop` hook，不影响已有配置。装完后当场播放两段试听。
+
+### macOS / Linux
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/<你的用户名>/claude-code-sound-notifier/main/install.sh | bash
+```
+
+## 手动安装
 
 复制 `settings.sample.json` 中的 `hooks` 配置块到你的 `~/.claude/settings.json` 中，重启 Claude Code 即可。
 
