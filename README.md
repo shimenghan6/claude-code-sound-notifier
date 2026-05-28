@@ -27,7 +27,7 @@
 powershell -ExecutionPolicy Bypass -Command "Invoke-WebRequest -Uri https://raw.githubusercontent.com/<你的用户名>/claude-code-sound-notifier/main/install.ps1 -OutFile install.ps1; .\install.ps1"
 ```
 
-或者下载 `install.ps1` → 右键 → 使用 PowerShell 运行。
+或者下载 `install.bat` → **双击运行**（推荐） 或 `install.ps1` → 右键 PowerShell 运行。
 
 安装脚本会自动检测现有配置，追加 `PermissionRequest` + `Stop` hook，不影响已有配置。装完后当场播放两段试听。
 
