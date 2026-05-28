@@ -2,7 +2,7 @@
 
 > Claude 干完活了——叮咚！需要你点确认——也叮咚！刷手机、上厕所、倒杯水，听到声音再回来。就两个字：**省心**。
 
-**十秒装好，装完当场试听。PermissionRequest + Stop 双 Hook，你的 Claude Code 从此会"喊"你。**
+**10 秒装好，当场试听。不写一行代码，不改任何现有配置。PermissionRequest + Stop 双 Hook，你的 Claude Code 从此会"喊"你。**
 
 ### 谁需要这个
 
